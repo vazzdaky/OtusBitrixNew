@@ -1,0 +1,5 @@
+# Bitrix24 Core (ядро) - НЕ добавляем в репозиторий
+/bitrix/
+
+# Upload files (загруженные файлы)
+/upload/
