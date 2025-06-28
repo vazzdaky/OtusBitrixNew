@@ -6,3 +6,4 @@
 
 # Composer files (если используется)
 /vendor/
+/.idea/
