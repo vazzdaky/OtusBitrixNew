@@ -3,3 +3,6 @@
 
 # Upload files (загруженные файлы)
 /upload/
+
+# Composer files (если используется)
+/vendor/
