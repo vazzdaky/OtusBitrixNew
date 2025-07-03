@@ -2,7 +2,7 @@
 return [
     'exception_handling' => [
         'value' => [
-            'debug'                      => false,
+            'debug'                      => true,
             'handled_errors_types'       => E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE & ~E_DEPRECATED,
             'exception_errors_types'     => E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE & ~E_DEPRECATED,
             'ignore_silence'             => false,
