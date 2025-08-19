@@ -12,3 +12,17 @@ function pr($var, $type = false)
         print_r($var);
     echo '</pre>';
 }
+
+
+use Bitrix\Main\EventManager;
+
+$eventManager = EventManager::getInstance();
+
+$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'UserTypes\UserTypeOnlineRecord', // class обработчик пользовательского типа свойства 
+        'GetUserTypeDescription'
+    ]
+);
