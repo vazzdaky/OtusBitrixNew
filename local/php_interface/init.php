@@ -26,3 +26,5 @@ $eventManager->AddEventHandler(
         'GetUserTypeDescription'
     ]
 );
+
+\Bitrix\Main\UI\Extension::load(['otus.workday_confirm']);
